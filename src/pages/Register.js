@@ -91,6 +91,9 @@ function Register(){
                     <div className="m-2">
                         <button className="btn btn-success" onClick={register}>Üye Ol</button>
                     </div>
+                    <div className="m-2 text-center">
+                        <a href="/login">giriş yapmak için tıkla?</a>
+                    </div>
                 </div>
                 <div className="col-4"></div>                    
             </div>

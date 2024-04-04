@@ -22,7 +22,7 @@ function Login(){
     const login = ()=>{
         console.log("Giriş butonuna basıldı.");
         console.log("Giriş Bilgileri...: ", userName,password);
-        navigate.call(null,'/');
+        navigate.call(null,'/admin-panel');
     }
 
     const getUserName = (evt) => {
@@ -48,6 +48,9 @@ function Login(){
                     </div>
                     <div className="m-2">
                         <button className="btn btn-success" onClick={login}>Giriş Yap</button>
+                    </div>
+                    <div className="m-2 text-center">
+                        <a href="/register">üye olmak ister misin?</a>
                     </div>
                 </div>
                 <div className="col-4"></div>                    
